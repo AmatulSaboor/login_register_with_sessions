@@ -18,4 +18,4 @@ const UserSchema = new Schema({
 });
 
 // Compile model from schema
-module.exports = mongoose.model('User', UserSchema );
+module.exports = mongoose.model('Employee', UserSchema );
