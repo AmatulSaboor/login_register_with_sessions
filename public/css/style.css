@@ -37,7 +37,12 @@ cursor: pointer;
 .card-header h3{
 color: white;
 }
-
+.error-class{
+    color: red;
+}
+.card-header h5{
+    color: goldenrod;
+    }
 .social_icon{
 position: absolute;
 right: 20px;
