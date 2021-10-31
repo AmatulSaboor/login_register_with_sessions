@@ -56,6 +56,7 @@ app.get('/register', (req, res) => {
   client.connect((err) => {
     if (err)
       throw err;
+      console.log('hello');
     const mySessions = client.db('myDB').collection('mySessions');
     mySessions.findOne({ _id: req.session.id, 'session.isAuthenticated': true }, (err, userData) => {
       if (err) throw err;
